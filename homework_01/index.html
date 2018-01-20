@@ -14,18 +14,20 @@
                   <header>
                      <a href="http://www.epam.com/"><img src="EPAM_logo.svg" alt="EPAM logo"> </a>
                   </header>
+
                   <nav>
-                     <a href="#"> HTML </a> 
-                     <a href="#"> List </a>
-                     <a href="#"> Table </a>
-                     <a href="#"> Text formats </a>
-                     <a href="#"> Blockquotes </a>
+                     <a href="#html"> HTML </a> 
+                     <a href="#list"> List </a>
+                     <a href="#table"> Table </a>
+                     <a href="#tf"> Text formats </a>
+                     <a href="#bq"> Blockquotes </a>
                   </nav>
-                  <main>
+
+                  <section>
                      <hr>
-                     <h1><b><a name="html"> HTML Elements </a> </b></h1>
+                     <h1 id="html"> <strong> HTML Elements </strong></h1>
                      <hr>
-                     <h2> Ordered List </h2>
+                     <h2 id="list"> Ordered List </h2>
                      <ul>
                         <li>
                            <h2>Heading 1</h2>
@@ -75,7 +77,7 @@
                         <p>Here are even more details about the details.</p>
                      </details>
                      <hr>
-                     <h2>Table</h2>
+                     <h2 id="table">Table</h2>
                      <table>
                         <thead>
                            <tr>
@@ -86,8 +88,8 @@
                         </thead>
                         <tbody>
                            <tr>
-                              <td> <strong> Strong <strong> </td>
-                              <td> H<sub>2</sub>O </td>
+                              <td> <strong> Strong </strong> </td>
+                              <td> H<sub>2</sub> O </td>
                               <td> <a href="#"> test link </a> </td>
                            </tr>
                            <tr>
@@ -102,7 +104,7 @@
                            </tr>
                         </tbody>
                      </table>
-                     <h2> Text formats </h2>
+                     <h2 id="tf"> Text formats </h2>
                      <h3>Article Text</h3>
                      <article>
                         <h2>Article title</h2>
@@ -115,7 +117,7 @@ Text
     is displayed in a fixed-width
 font, and it preserves
 both           spaces and
-    line breaks</pre>
+    line breaks      </pre>
                      <h3>Code</h3>
                      <pre>
 .wrapper {
@@ -124,15 +126,17 @@ both           spaces and
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }</pre>
-                     <h2>Blockquotes</h2>
+                     <h2 id="bq">Blockquotes</h2>
                      <p> Let’s keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.</p>
                      <blockquote>
                         Technology is nothing. What's important is that you have a faith in people, that they're basically good and smart, and if you give them tools, they'll do wonderful things with them.
                         <address> <a href="https://en.wikipedia.org/wiki/Steve_Jobs">Steve Jobs </a></address>
                      </blockquote>
-                     <p hidden="true"> And here’s a bit of trailing text.</p>
-                  </main>
+                     <p hidden> And here’s a bit of trailing text.</p>
+                  </section>
+
                   <footer> Copyright Epam Systems </footer>
+
                </div>
             </div>
          </div>
